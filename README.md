@@ -144,15 +144,15 @@ together tomorrow forever
             const ans = document.getElementById('answer').value.toLowerCase();
             const img = document.getElementById('display-image');
             
-            // Logika jawaban: mengandung kata 'tersenyum' atau 'menyaksikan'
-            if (ans.includes("tersenyum") || ans.includes("menyaksikan")) {
+            // Logika jawaban: mengandung kata 'tersenyum' atau 'minyaksikan'
+            if (ans.includes("tersenyum") || ans.includes("minyaksikan")) {
                 document.getElementById('game-section').style.display = "none";
                 document.getElementById('final-section').style.display = "block";
                 spawnHearts();
             } else {
                 img.style.display = "block";
                 img.src = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDBxOXV2ZXdxdW1pMm9rNHNlMDg5d242NXlzejR4ZDk4cDh2c2RoeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WrxoaVPiq0cG4/giphy.gif";
-                alert("Salah! Petunjuknya: Sesuatu yang aku suka lakukan saat melihatmu...");
+                alert("masa kamu gatau sihh yang aku suka!!");
             }
         }
 
